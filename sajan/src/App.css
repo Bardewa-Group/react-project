@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 25px;
+}
+
+.output{
+  font-size: 50px;
+  margin:10px 20px;
+}
+
+.react{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react button{
+  border: none;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.card-collection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.standout{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 52, 52) 0px 0px 0px 3px
+}
+
+@media only screen and (max-width:600px){
+  .card-collection{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, h2, h3, p, h5{
+  text-align: center;
+}
